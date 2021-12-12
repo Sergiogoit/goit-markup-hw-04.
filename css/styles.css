@@ -10,6 +10,7 @@
   --section2-background-color: #ececec;
   --section-background-color: #f5f4fa;
   --activity-color: #ff0000;
+  --border-color: #afb1b8;
 }
 /* Убирает точки */
 ul {
@@ -167,6 +168,7 @@ a {
 .main-section {
   max-width: 1600px;
   background-color: var(--section1-background-color);
+  background-image: url(../img/hero.jpg);
   text-align: center;
   color: var(--body-color);
   padding-top: 200px;
@@ -461,8 +463,35 @@ img {
   border-left-color: var(--section2-background-color);
 }
 .icon {
-  width: 200px;
-  height: 100px;
-  background-color: #ff0000;
-  margin-bottom: 20px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--section-background-color);
+  margin-bottom: 30px;
+}
+.customers {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+.clients {
+  color: var(--main-txt-color);
+  text-align: center;
+  font-family: Roboto;
+  /* font-style: Bold; */
+  font-size: 36px;
+  line-height: 1.16em;
+  line-height: 100%;
+  /* align: Center; */
+  /* vertical-align: Top; */
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  margin: 0px;
 }
