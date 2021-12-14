@@ -105,7 +105,7 @@ a {
   color: var(--txt-color);
   margin-right: 30px;
 }
- /* .hader-link::before {
+/* .hader-link::before {
   width: 16px;
   height: 20px;
   content: "";
@@ -543,7 +543,6 @@ img {
   background-position: center; */
 }
 
-
 .envelope {
   width: 16px;
   height: 12px;
@@ -558,15 +557,14 @@ img {
 }
 .envelope:hover,
 .envelope:focus {
-  background-image: url(../img/envelope\ \(hover\).svg);
+  background-image: url(../img/envelope\\(hover\).svg);
   cursor: pointer;
   /* background-color: var(--heder-link-color); */
-
 }
 
 .phone:hover,
-.phone:focus{
-  fill:var(--heder-link-color)
+.phone:focus {
+  fill: var(--heder-link-color);
 }
 .item:hover,
 .item:focus {
@@ -660,9 +658,9 @@ img {
 .soc-icon-footer {
   display: flex;
   justify-content: center;
-  margin-bottom: 51px;
-  margin-left: -335px;
-  margin-top: -96px;
+  margin-bottom: 84px;
+  margin-left: -394px;
+  margin-top: -145px;
 }
 .inst-foot {
   background-size: 20px;
@@ -674,7 +672,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-background-color: rgb(255, 255, 255, 0.1);
+  background-color: rgb(255, 255, 255, 0.1);
   /* outline: 1px solid rgb(131, 161, 146); */
   display: flex;
   margin-left: 10px;
@@ -684,3 +682,20 @@ background-color: rgb(255, 255, 255, 0.1);
   fill: var(--heder-link-color);
   background-color: var(--heder-link-color);
   cursor: pointer;
+}
+
+.soc-linc-foot:nth-child(4n + 1) {
+  margin-left: 0px;
+}
+.fuut-icon {
+  display: flex;
+}
+.connect {
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: var(--body-color);
+  font-style: normal;
+}
