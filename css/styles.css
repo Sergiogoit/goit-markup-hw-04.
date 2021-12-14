@@ -557,10 +557,10 @@ img {
 }
 .envelope:hover,
 .envelope:focus {
-  background-image: url(../img/envelope\\(hover\).svg);
+  background-image: url(../img/envelopehover.svg);
   cursor: pointer;
-  /* background-color: var(--heder-link-color); */
 }
+/* background-color: var(--heder-link-color); */
 
 .phone:hover,
 .phone:focus {
