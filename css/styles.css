@@ -495,7 +495,6 @@ img {
 .customers {
   width: 170px;
   height: 92px;
-  border: 1px solid var(--border-color);
   border-radius: 4px;
   fill: var(--border-color);
 }
@@ -591,6 +590,7 @@ img {
   fill: var(--border-color);
   margin: auto;
   padding: 0;
+  border: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
   align-items: center;
